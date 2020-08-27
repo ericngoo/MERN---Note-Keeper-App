@@ -7,7 +7,7 @@ A CRUD application for note keeping with basic account creation to store persona
 
 ![Image of Login Page](https://github.com/ericngoo/MERN---Note-Keeper-App/blob/master/LoginPage.jpg)
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![Image of Main Page](https://github.com/ericngoo/MERN---Note-Keeper-App/blob/master/MainPage.jpg)
 
 ## Installation and Setup Instructions
 
