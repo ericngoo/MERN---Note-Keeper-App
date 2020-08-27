@@ -1,6 +1,6 @@
 ## Note Keeper App
 
-A CRUD application for note keeping with basic account creation to store personal notes, built with ExpressJS, React, PassportJS, Axios, and MongoDB.
+A CRUD application for note keeping with basic account creation to store personal notes, built with ExpressJS, React, PassportJS, Axios, and MongoDB Atlas.
 
 ## Project Screen Shots
 
