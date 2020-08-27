@@ -46,9 +46,11 @@ function Login(props) {
         <div>
             <div className="welcome-title">
                 <h1 className="h1-title">Note Keeper App </h1>
-                <img className="github-logo" src={ process.env.PUBLIC_URL + "/Github-Mark-64px.png"}
-                    alt=""
-                    href=""/>
+                
+                <a href="https://github.com/ericngoo/MERN---Note-Keeper-App" target="_blank">
+                    <img className="github-logo" src={ process.env.PUBLIC_URL + "/GitHub-Mark-64px.png"} alt=""/>
+                </a>
+
                 <h2 className="h2-title">Built with MonogoDB - ExpressJS - ReactJS - NodeJS -  PassportJS</h2>
             </div>
             <div className="login-container">
