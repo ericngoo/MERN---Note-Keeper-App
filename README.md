@@ -2,7 +2,7 @@
 
 A CRUD application for note keeping with basic account creation to store personal notes, built with ExpressJS, React, PassportJS, Axios, and MongoDB.
 
-## Project Screen Shot(s)
+## Project Screen Shots
 
 
 ![Image of Login Page](https://github.com/ericngoo/MERN---Note-Keeper-App/blob/master/LoginPage.jpg)
