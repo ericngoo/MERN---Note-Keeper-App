@@ -15,7 +15,7 @@ Clone the repository. (You will need `node` and `npm` installed globally on your
 
 Installation:
 
-Navigate to the root of the project and run: 
+Navigate to the root of the project and run the following commands: 
 
 `npm install`
 `npm run client-install`
