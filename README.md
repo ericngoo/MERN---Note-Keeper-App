@@ -30,19 +30,12 @@ https://notekeepingappforfunz.herokuapp.com/
 
 ## Reflection
 
-  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
-  - What did you set out to build?
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
-  - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
+This was a 3 week side project that I implemented for fun! This was mainly a learning opportunity for me to understand how the front and backend interact with each other in a full stack application, with simple CRUD operations.
 
-#### Example:  
+Starting this summer I didn't have much knowledge of full stack development so I started by getting familiar with vanilla Javascript, HTML, and CSS. After getting comfrotable, I started learning React and Express because of their popularity as frontend and backend frameworks.
 
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
+One of my main challenges I ran into was connecting the frontend to the backend since the React App runs on a different server than the Express server, but I was able to overcome this by manually running both servers locally and then calling my Express server via Axios calls in the React Frontend. And eventually, I learned how to make my life easier by setting up a proxy to the Express server and creating an npm script to run both servers concurrently.
 
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.  
+This was my first React/Express application so I used `create-react-app` boilerplate to handle the initial setup for me. But the final list of technologies used in my project are: React, Axios, Body-Parser, Concurrently, Express, Express-Session, Mongoose, Passport, and Passport-Local-Mongoose. (Hosted on Heroku 😎)
 
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
 
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
