@@ -112,6 +112,16 @@ form.create-note button {
   font-family: inherit;
 }
 
+.register-container {
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 520px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  font-family: inherit;
+}
+
 .sign {
   text-align: center;
   padding-top: 30px;
@@ -170,12 +180,13 @@ form.create-note button {
   color: #fff;
   background: #96bb7c;
   border: 0;
+  width: 150px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: inherit;
-  margin-left: 34%;
+  margin-left: 32%;
   font-size: 16px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
