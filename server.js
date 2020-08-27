@@ -132,7 +132,7 @@ app.post("/register", (req, res) => {
   User.register({ username: req.body.username }, req.body.password, (err, user) => {
     if (err) {
       console.log(err);
-      res.send(false)
+      res.send({requestStatus: false})
     } else {
       passport.authenticate("local")(req, res, () => {
         console.log(req.user);
@@ -151,7 +151,7 @@ app.post("/login", (req, res, next) => {
   req.login(newUser, (err) => {
     if (err) {
       console.log(err);
-      res.send(false)
+      res.send({requestStatus: false})
     } else {
       passport.authenticate("local")(req, res, () => {
         res.send({ requestStatus: true, userID: req.user._id })
