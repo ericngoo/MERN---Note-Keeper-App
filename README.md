@@ -17,12 +17,19 @@ Installation:
 
 Navigate to the root of the project and run the following commands: 
 
-`npm install`
-`npm run client-install`
+```sh
+   npm install
+   ```
+   
+ ```sh
+   npm run client-install
+   ```   
 
 To Start Server:
 
-`npm run dev`  
+ ```sh
+   npm run dev
+   ``` 
 
 To visit deployed App:
 
